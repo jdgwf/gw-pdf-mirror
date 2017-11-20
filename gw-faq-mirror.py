@@ -87,6 +87,10 @@ def get_remote_faq_list( request_data ):
 
             pdf = title + " - " + version + ".pdf"
 
+            pdf = pdf.replace(":", " -")
+            pdf = pdf.replace("\\", "-")
+            pdf = pdf.replace("/", "-")
+
             gw_faq_data[ current_category ].append(
                 {
                     "version": raw_version,
