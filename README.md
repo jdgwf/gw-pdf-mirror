@@ -10,7 +10,7 @@ You'll need Python installed on your system. Instructions to do so can be found 
 
 ### Prerequisites
 
-You'll need a fairly current version of python3 or python2 (no guarantees that it works on python2, for I don't use it anymore), but the requirements are pretty minimal. Both versions should work with this script.
+You'll need a fairly current version of python3 or python2, but the requirements are pretty minimal. Both versions should work with these scripts (no guarantees that it works on python2, for I don't use it anymore. I did test both with Python 2.7.12 on Ubuntu 16.04 in mid 2018 and they worked fine enough).
 
 ### Installing
 
