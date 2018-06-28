@@ -1,6 +1,8 @@
-# Games Workshop FAQ Mirror(er)
+# Games Workshop PDF Mirror(er)
 
-This scripts checks the Games Workshop Warhammer Community FAQ page for new or non-existent FAQs and attempts to download any newer versions or new files.
+**gw-faq-mirror.py** This script checks the Games Workshop Warhammer Community FAQ page for new or non-existent FAQs and attempts to download any newer versions or new files.
+
+**gw-warscroll-downloader.py** This script finds and downloads all the publicly available Warscroll PDFs for Age of Sigmar. It uses the data from the public Warscroll Builder.
 
 ## Getting Started
 
@@ -8,14 +10,11 @@ You'll need Python installed on your system. Instructions to do so can be found 
 
 ### Prerequisites
 
-You'll need a fairly current version of python3 or python2, but the requirements are pretty minimal. Both versions work with this script.
-
+You'll need a fairly current version of python3 or python2 (no guarantees that it works on python2, for I don't use it anymore), but the requirements are pretty minimal. Both versions should work with this script.
 
 ### Installing
 
 The default config will download the files into a directory the script is located. If you're wanting to change the "base path", just copy the config.sample.py to config.py and change the settings there. The config.py will not be overwritten with subsequent git pulls, and the config.sample.py will have a list of all the options you can change in subsequent versions.
-
-
 
 ## Deployment
 
