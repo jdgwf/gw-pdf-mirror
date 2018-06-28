@@ -1,6 +1,6 @@
 # This is the save path
 save_path = "./downloads/"
-
+warscroll_save_path = './warscrolls/'
 # Print some useful debugging messages
 print_debug = False
 
