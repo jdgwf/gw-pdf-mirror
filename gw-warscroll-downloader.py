@@ -47,7 +47,7 @@ def download_file( file_url, warscroll_save_path):
 
 def download_files():
     for fileuri in warscroll_uris:
-        file_warscroll_save_path = warscroll_save_path + fileuri[fileuri.rfind("/")+1:]
+        file_warscroll_save_path = warscroll_save_path + fileuri[fileuri.rfind("/")+1:].replace('%20', ' ')
         download_file( fileuri, file_warscroll_save_path )
 
 def get_warscroll_list( csv_text ):
